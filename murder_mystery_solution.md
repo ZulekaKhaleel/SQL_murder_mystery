@@ -6,7 +6,7 @@ The detective gave you the crime scene report, but you somehow lost it.
 You vaguely remember that the crime was a ​murder​ that occurred sometime on ​Jan.15, 2018​ and that it took place in ​SQL City​. 
 
 ## How I solved it
-1. First, I looked up the crime scene to fint the witnesses:
+1. First, I looked up the crime scene to find the witnesses:
    ''''SELECT * 
 FROM crime_scene_report 
 WHERE date = 20180115 
